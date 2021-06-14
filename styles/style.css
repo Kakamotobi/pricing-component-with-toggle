@@ -1,0 +1,27 @@
+:root {
+	/* Primary */
+	--gradient: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+	/* Neutral */
+	--vryLtGreyBlue: hsl(240, 78%, 98%);
+	--ltGreyBlue: hsl(234, 14%, 74%);
+	--greyBlue: hsl(233, 13%, 49%);
+	--drkGreyBlue: hsl(232, 13%, 33%);
+	/* Typography */
+	--ff: "Montserrat", sans-serif;
+	--fs: 15px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Footer */
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
