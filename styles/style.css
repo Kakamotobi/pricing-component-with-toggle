@@ -82,12 +82,12 @@ h1 {
 	background-color: var(--white);
 	border-radius: 50%;
 	top: 4px;
-	left: 4px;
+	right: 4px;
 	transition: 250ms;
 }
 
 input:checked + .slider::before {
-	transform: translateX(22px);
+	transform: translateX(-22px);
 }
 
 /* Pricing Plans */
