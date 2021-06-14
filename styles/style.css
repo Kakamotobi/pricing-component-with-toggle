@@ -115,10 +115,16 @@ input:checked + .slider::before {
 
 .pricing-plans__price {
 	margin-bottom: 40px;
-	font-size: 3.1rem;
+	font-size: 2.6rem;
+	display: flex;
+	align-items: center;
 }
 .pricing-plans__price.invert {
 	color: var(--white);
+}
+
+.pricing-plans__price span {
+	font-size: 3.5rem;
 }
 
 .pricing-plans__desc-container {
@@ -198,11 +204,14 @@ input:checked + .slider::before {
 @media screen and (min-width: 500px) {
 	body {
 		background-image: url("images/bg-top.svg"), url("images/bg-bottom.svg");
-		background-position: right -30px, left bottom;
+		background-position: right top, left bottom;
 	}
 }
 
 @media screen and (min-width: 1000px) {
+	h1 {
+		font-size: 2.1rem;
+	}
 	.pricing-options-toggle {
 		margin-bottom: 65px;
 	}
@@ -213,5 +222,8 @@ input:checked + .slider::before {
 	.pricing-plans.invert {
 		height: 500px;
 		padding: 55px 28px;
+	}
+	.pricing-plans__price span {
+		font-size: 4rem;
 	}
 }
