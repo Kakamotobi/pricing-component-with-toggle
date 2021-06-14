@@ -61,7 +61,7 @@ h1 {
 
 .toggle input {
 	position: absolute;
-	opacity: 0;
+	display: none;
 }
 
 .slider {
@@ -101,6 +101,7 @@ input:checked + .slider::before {
 	align-items: center;
 	background-color: var(--white);
 	border-radius: 10px;
+	box-shadow: 0 10px 15px var(--ltGreyBlue);
 }
 
 .pricing-plans__name {
